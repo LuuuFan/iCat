@@ -1,0 +1,16 @@
+We appreciate you taking the time to take this assessment, which helps us gain some valuable insight into your development process and familiarity with the complexities of developing email for compliance across clients.
+
+Please review and employ the attached PNG files as a visual reference. There are separate files for desktop and mobile layout. We would like for you to please develop an email in plain HTML/CSS that matches the layout and styling as defined in the PNG files, while functioning correctly (e.g., links behaving normally) for the following mail clients on desktop and mobile and using a single code base:
+
+* Apple Mail
+* iOS Mail for small phones (iPhone SE) and large phones (iPhone X)
+* Gmail.com webmail
+* Gmail app on Android
+* Outlook.com webmail
+* Yahoo.com webmail
+* Outlook 2013 on Windows 8
+* Outlook 2016 on Windows 10
+
+Take into account precision, responsiveness, and cleanliness of code. You can use any third-party tools of your choosing (i.e., Litmus, EmailonAcid, etc.) to test and ensure they will render properly in the respective mail clients. Feel free to deviate if necessary from the specified layouts, as long as there is rationale to do so.
+
+While there is no specific time limit, we'd like to see you work this out on your own and see what you can produce within a couple of days if possible. When you are ready to have your code reviewed, you can point us in the direction of your Github or send us the files! 
