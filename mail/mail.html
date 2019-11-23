@@ -5,9 +5,280 @@
     <link rel=icon type="image/png" href="https://res.cloudinary.com/dq132990i/image/upload/v1574468536/tmp/dx0hbqifqg4gzacoqmgh.png">
     <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <link rel="stylesheet" type="text/css" href="./mail.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./mail.css"> -->
 </head>
 <body>
+	<style type="text/css" media="screen">
+		body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #333;
+	width: 90vw;
+	margin: 0 5vw;
+	margin-bottom: 5em;
+	padding-top: 5em;
+	border: 1px solid #979797;
+}
+h1, h2{
+	width: 100%;
+	margin: 0 auto;
+	font-weight: normal;
+	box-sizing: border-box;
+}
+h1{
+	font-size: 3em;
+	padding: 1.5em;
+	text-align: center;
+}
+h2{
+	font-size: 2.5em;
+}
+.section{
+	width: 85%;
+	margin: 0 auto;
+}
+.ul{
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: #3987c6;
+	cursor: pointer;
+	text-decoration: none;
+}
+.footer{
+	margin-top: 3em;
+	background-color: #f2f2f2;
+	padding: 2em 7.5%;
+	color: #999;
+}
+.footer a{
+	color: #999;
+	line-height: 1em;
+}
+.footer .center{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #e3e3e3;
+}
+.footer>.center>.li{
+	text-align: center;
+}
+.footer p, .small-font{
+	margin: 1.5em 0;
+	font-size: 0.8em;
+	text-align: left;
+}
+.small-font .seperator, .center .seperator{
+	padding: 0 0.8em;
+}
+strong{
+	color: #666;
+	font-weight: 540;
+}
+p, a{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	letter-spacing: 0.08em;
+}
+.bg{
+	background-color: #fafafa;
+}
+.bg>.ul{
+	margin-top: 5em;
+	padding-bottom: 7em;
+	justify-content: space-around;
+}
+.bg>.ul>.li, #fourth>.ul>.li{
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bg>.ul>.li .text{
+	height: 20em;
+}
+.bg>.ul>.li h2, p{
+	text-align: center;
+}
+.bg>.ul>.li>img{
+	width: 95%;
+}
+.cat_a{
+	min-height: 110vh;
+	position: relative;
+}
+.cat_a .background-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.cat_a .background-img img{
+	width: 100%;
+}
+.cat_a .text{
+	width: 45%;
+	padding-top: 10%;
+	margin-left: 10%;
+}
+.header{
+	display: flex;
+	align-items: flex-end;
+}
+.header img{
+	width: 5em;
+	margin-right: 1em;
+}
+#second .ul, #fourth .ul{
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+}
+#second .ul li{
+	width: 35%;
+	margin-bottom: 2em;
+}
+#second .ul li:nth-child(odd){
+	margin-right: 4em;
+}
+.cat_a .text p, #second .ul li p{
+	text-align: left;
+}
+#third{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: 1.5px solid #d6d6d6;
+	border-bottom: 1.5px solid #d6d6d6;
+	padding-top: 3em;
+	padding-bottom: 5em;
+}
+#third img{
+	width: 20em;
+}
+#fourth>.ul{
+	justify-content: space-around;
+}
+#fourth>.ul>.li h2{
+	text-align: center;
+}
+#fourth>.ul>.li img{
+	width: 8em;
+}
+#fourth>.ul>.li{
+	width: 23%;
+}
+#fourth>.ul>.li>a:first-of-type{
+	margin-bottom: 1em;
+}
+a.mobile, .mobile, .footer>.mobile{
+	display: none;
+}
+@media only screen and (max-width: 960px) {
+	body{
+		width: 100vw;
+	}
+	.main{
+		padding-top: 0;
+		width: 100vw;
+		margin: 0;
+	}
+	.ul{
+		flex-direction: column;
+		align-items: center;
+	}
+	.section, .cat_a .text{
+		width: 90%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	h1{
+		font-size: 2.5em;
+		padding: 1em 0;
+	}
+	h2{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	p, a{
+		letter-spacing: 0.03em;
+		font-size: 1em;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile, a.mobile{
+		display: block;
+	}
+	.footer>.mobile{
+		display: flex;
+	}
+	.cat_a .text p{
+		text-align: center;
+	}
+	.cat_a .background-img{
+		overflow: hidden;
+		position: static;
+	}
+	.cat_a .background-img img{
+		transform: translateX(-30%);
+		height: 100vh;
+		width: auto;
+	}
+	.cat_a{
+		background-position: center;
+	}
+	#first{
+		width: 100%;
+	}
+	.bg>.ul>.li, #fourth>.ul>.li, #second>.ul>.li{
+		width: 80%;
+	}
+	#second .ul, #fourth .ul{
+		align-items: center;
+	}
+	#second .ul .li:nth-child(odd){
+		margin-right: 0;
+	}
+	#third img{
+		width: 15em;
+	}
+	#third p{
+		width: 60%;
+	}
+	#third a{
+		text-align: center;
+		width: 80%;
+	}
+	.header h2{
+		text-align: left;
+	}
+	.footer .ul{
+		flex-direction: row;
+	}
+	.footer .ul.center .li, .footer .ul .li{
+		padding: 0;
+		white-space: nowrap;
+	}
+	.bg>.ul>.li .text{
+		margin-top: 2em;
+		height: auto;
+	}
+}
+
+	</style>
 	<div class='main'>
 		<div id='first' class='section bg'>
 			<h1>Headline 1</h1>
