@@ -1,12 +1,12 @@
-![paw](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+![paw](https://res.cloudinary.com/dq132990i/image/upload/v1574468536/tmp/dx0hbqifqg4gzacoqmgh.png)
 
-#iCat
+# iCat
 
-##Tech Stack
-HTML
-CSS
+## Tech Stack
+* HTML
+* CSS
 
-##Project Preview
+## Project Preview
 [link](https://luuufan.github.io/iCat/)
 
 
