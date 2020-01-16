@@ -1,0 +1,10 @@
+h1: Roboto Black (900) 100px #4F4D53
+h2: Roboto Black (900) 64px #E8BE02
+h3: Roboto Black (900) 20px #E8BE02
+h4: Roboto Regular (400) 14px #FFFFFF
+p: Roboto Regular (400) 20px #4F4D53
+
+UI Components:
+Navbar: 48px #4F4D53
+Yellow band above footer: 12px #E8BE02
+Footer: 320px #4F4D53
